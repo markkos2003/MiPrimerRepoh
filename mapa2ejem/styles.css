@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#map {
+    height: 100vh;
+}
+
+.alert {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
